@@ -16,6 +16,23 @@ export class VisitDetails {
 
 export class ApiResponse {
   success: boolean;
-  data?: CodeDetails | CodeDetails[] | VisitDetails;
+  data?: any;
   err?: string;
+}
+
+export class IP {
+  status: string;
+  country: string;
+  countryCode: string;
+  region: string;
+  regionName: string;
+  city: string;
+  zip: string;
+  lat: number;
+  lon: number;
+  timezone: string;
+  isp: string;
+  org: string;
+  as: string;
+  query: string;
 }

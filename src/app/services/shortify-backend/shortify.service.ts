@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { CodeDetails, VisitDetails, ApiResponse } from './shortify-ds';
+import { CodeDetails, VisitDetails, ApiResponse } from '../../shortify-ds';
 
 @Injectable()
 
